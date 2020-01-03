@@ -14,14 +14,8 @@
     <bean id="myCoach"
     	class="com.luv2code.springdemo.TrackCoach"
     	init-method="doMyStartupStuff"
-    	destroy-method="doMyCleanupStuff"
-    	scope="prototype">
+    	destroy-method="doMyCleanupStuff">
     	<constructor-arg ref="myFortuneService" />
     </bean>
     
 </beans>
-
-
-
-
-
